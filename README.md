@@ -1,4 +1,4 @@
-# 🚀 Sistema de Registro e Rastreamento de Ocorrências
+# 🚀 Sistema de Rastreamento de Encomendas
 
 Este projeto é uma aplicação **full stack** composta por um **backend em Spring Boot (Java)** e um **frontend em React (JavaScript)**.  
 O sistema permite:
