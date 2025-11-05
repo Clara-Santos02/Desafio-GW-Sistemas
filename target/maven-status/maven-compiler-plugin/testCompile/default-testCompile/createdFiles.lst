@@ -1,0 +1,12 @@
+com\example\desafio\dto\RegisterOrderDTOTest.class
+com\example\desafio\DesafioGwApplicationTests.class
+com\example\desafio\controller\OcurrenceControllerTest.class
+com\example\desafio\dto\TrackingStatusResponseDTOTest.class
+com\example\desafio\mapper\OcurrenceMapperTest.class
+com\example\desafio\dto\OcurrenceTimeLineDTOTest.class
+com\example\desafio\dto\RegisterOcurrenceDTOTest.class
+com\example\desafio\controller\OrderControllerTest.class
+com\example\desafio\service\OcurrenceServiceTest.class
+com\example\desafio\service\OrderServiceTest.class
+com\example\desafio\enums\OcurrenceStatusTest.class
+com\example\desafio\mapper\OrderMapperTest.class
