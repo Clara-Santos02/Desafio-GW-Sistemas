@@ -43,6 +43,11 @@ O sistema permite:
 - Testes executados com **Mockito** e **Spring Boot Test**.
 
 ---
+## 🗃️ Banco de Dados
+
+O script SQL para criação das tabelas está localizado em:
+
+📄 `src/main/resources/schema.sql`
 
 ## 🧰 Como Executar o Projeto
 
@@ -53,6 +58,7 @@ Certifique-se de ter instalado:
 - [Maven 3.9+](https://maven.apache.org/download.cgi)
 - [Node.js 18+](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
+- Banco de dados configurado (H2 ou MySQL)
 
 ---
 
@@ -78,6 +84,19 @@ Certifique-se de ter instalado:
 5. A aplicação será iniciada em: http://localhost:3000
 
 ⚠️ O backend deve estar rodando antes de iniciar o frontend.
+
+### 🔹 Geração de executável
+1. Vá até a pasta target/
+    ```bash
+   cd target
+
+2. Execute o jar:
+    ```bash
+   java -jar nome-do-seu-projeto-0.0.1-SNAPSHOT.jar
+
+3. O backend iniciará em:
+
+http://localhost:8080
 
 ## Endpoints
 
