@@ -27,10 +27,10 @@ function OcurrenceForm() {
 
       <label>Status:</label>
       <select name="status" value={form.status} onChange={handleChange}>
-        <option value="Saiu para entrega">Out for delivery</option>
-        <option value="Em Trânsito">In transit</option>
-        <option value="Não Entregue">Not delivered</option>
-        <option value="Entregue">Delivered</option>
+        <option value="OUT_FOR_DELIVERY">Saiu para entrega</option>
+        <option value="IN_TRANSIT">Em trânsito</option>
+        <option value="NOT_DELIVERED">Não entregue</option>
+        <option value="DELIVERED">Entregue</option>
       </select>
 
       <button type="submit">Registrar</button>
